@@ -5,3 +5,5 @@ const routes = {
     redigster: "/register",
   },
 };
+
+export { routes };
