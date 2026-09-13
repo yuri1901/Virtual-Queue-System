@@ -2,6 +2,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { metadataConfig } from "@/libs/config";
 import { QueryProvider } from "@/providers";
+import { Toaster } from "sonner";
 
 import type { Metadata } from "next";
 import "./globals.css";
@@ -14,6 +15,7 @@ export default function RootLayout({ children }: LayoutProps<"/[locale]">) {
       <body>
         <NextIntlClientProvider>
           <QueryProvider>{children}</QueryProvider>
+          <Toaster />
         </NextIntlClientProvider>
       </body>
     </html>
