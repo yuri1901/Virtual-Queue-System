@@ -1,6 +1,492 @@
 {
   "home": {
-    "title": "тест",
-    "description": "тест"
+    "header": {
+      "brand": "Virtual Queue",
+      "navigationLabel": "Головна навігація",
+      "howItWorks": "Як це працює",
+      "features": "Можливості",
+      "pricing": "Тарифи",
+      "signIn": "Увійти",
+      "register": "Зареєструватися"
+    },
+    "hero": {
+      "eyebrow": "Спокійніший спосіб чекати",
+      "title": "Пропусти чергу.",
+      "titleAccent": "Збережи своє місце.",
+      "description": "Приєднуйся до черги звідки завгодно, бач своє місце в ній і займайся своїми справами, поки ми зберігаємо його за тобою.",
+      "primaryCta": "Зареєструватися",
+      "secondaryCta": "Як це працює",
+      "socialProof": "Для тих, хто цінує свій час"
+    },
+    "queuePreview": {
+      "eyebrow": "Твоя черга наживо",
+      "location": "Клініка Northside",
+      "active": "Активна",
+      "ticket": "Твій талон",
+      "position": "Позиція",
+      "estimatedWait": "Очікування",
+      "updated": "Оновлено щойно"
+    },
+    "features": {
+      "eyebrow": "Створено для комфортного очікування",
+      "title": "Усе необхідне, щоб бути на крок попереду.",
+      "description": "Простий досвід роботи з чергою для моментів, коли твій час має значення.",
+      "remote": {
+        "title": "Приєднуйся віддалено",
+        "description": "Займи місце до приходу, з будь-якого пристрою."
+      },
+      "position": {
+        "title": "Знай своє місце",
+        "description": "Бач своє місце чітко, без оновлень сторінки та здогадок."
+      },
+      "updates": {
+        "title": "Будь у курсі",
+        "description": "Отримуй своєчасні оновлення, поки черга рухається вперед."
+      }
+    },
+    "howItWorks": {
+      "eyebrow": "Три прості кроки",
+      "title": "Твоє місце в черзі завжди перед очима.",
+      "find": {
+        "title": "Знайди чергу",
+        "description": "Обери потрібну послугу та переглянь поточну доступність."
+      },
+      "join": {
+        "title": "Приєднайся віддалено",
+        "description": "Введи кілька даних і отримай цифровий талон."
+      },
+      "track": {
+        "title": "Стеж за позицією",
+        "description": "Слідкуй за оновленнями та приходь, коли настане твоя черга."
+      }
+    },
+    "useCases": {
+      "eyebrow": "Для зайнятих місць",
+      "title": "Спокійніший потік для будь-якої черги.",
+      "description": "Дай відвідувачам прозорість, а команді — простіший спосіб керувати днем.",
+      "clinics": {
+        "title": "Клініки",
+        "description": "Прийоми"
+      },
+      "barbershops": {
+        "title": "Барбершопи",
+        "description": "Без запису"
+      },
+      "restaurants": {
+        "title": "Ресторани",
+        "description": "Столики"
+      },
+      "serviceCenters": {
+        "title": "Сервісні центри",
+        "description": "Запити"
+      },
+      "events": {
+        "title": "Події",
+        "description": "Реєстрація"
+      },
+      "offices": {
+        "title": "Офіси",
+        "description": "Відвідувачі"
+      }
+    },
+    "pricing": {
+      "eyebrow": "Прості тарифи",
+      "title": "Почни з малого. Масштабуйся, коли будеш готовий.",
+      "description": "Усе необхідне, щоб замінити кімнату очікування на кращий досвід.",
+      "popular": "Найпопулярніший",
+      "cta": "Почати",
+      "starter": {
+        "name": "Старт",
+        "description": "Для однієї локації на початку.",
+        "price": "$0",
+        "queues": "1 активна черга",
+        "members": "До 50 відвідувачів",
+        "analytics": "Базова аналітика"
+      },
+      "team": {
+        "name": "Команда",
+        "description": "Для команд, що зростають.",
+        "price": "$29",
+        "queues": "Безлімітні черги",
+        "members": "Безлімітні відвідувачі",
+        "analytics": "Розширена аналітика"
+      },
+      "scale": {
+        "name": "Масштаб",
+        "description": "Для кількох локацій.",
+        "price": "$79",
+        "queues": "Кілька локацій",
+        "members": "Права команди",
+        "analytics": "Звіти для експорту"
+      }
+    },
+    "cta": {
+      "eyebrow": "Твій час належить тобі",
+      "title": "Готовий залишити очікування в минулому?",
+      "description": "Приєднайся до черги за кілька дотиків і проведи час до свого візиту так, як хочеш.",
+      "button": "Зареєструватися",
+      "note": "Почни за кілька хвилин"
+    },
+    "footer": {
+      "brand": "Virtual Queue",
+      "features": "Можливості",
+      "howItWorks": "Як це працює",
+      "signIn": "Увійти",
+      "copyright": "© 2026 Virtual Queue"
+    }
+  },
+  "Filters": {
+    "open": "Фільтри",
+    "status": "Статус",
+    "allStatuses": "Усі статуси",
+    "active": "Активна",
+    "paused": "Призупинена",
+    "closed": "Закрита",
+    "draft": "Чернетка",
+    "category": "Категорія",
+    "allCategories": "Усі категорії",
+    "clinic": "Клініка",
+    "barbershop": "Барбершоп",
+    "restaurant": "Ресторан",
+    "serviceCenter": "Сервісний центр",
+    "sortBy": "Сортувати за",
+    "newest": "Спочатку нові",
+    "oldest": "Спочатку старі",
+    "mostPeople": "Найбільше людей",
+    "leastPeople": "Найменше людей",
+    "clear": "Очистити фільтри",
+    "apply": "Застосувати фільтри"
+  },
+  "Common": {
+    "search": "Пошук",
+    "backToHome": "На головну",
+    "goToDashboard": "До панелі керування",
+    "retry": "Спробувати ще раз",
+    "loading": "Завантаження"
+  },
+  "Errors": {
+    "genericTitle": "Щось пішло не так.",
+    "genericDescription": "Спробуйте оновити сторінку. Ваші дані в безпеці.",
+    "notFoundTitle": "Ми не змогли знайти цю сторінку.",
+    "notFoundDescription": "Сторінку могли перемістити або посилання може бути неповним.",
+    "forbiddenTitle": "Доступ обмежено.",
+    "forbiddenDescription": "У вас немає дозволу на перегляд цієї сторінки."
+  },
+  "auth": {
+    "layout": {
+      "brand": "Virtual Queue",
+      "backToHome": "На головну",
+      "heroTitle": "Цінуйте кожну хвилину.",
+      "heroSubtitle": "Керуйте чергами, інформуйте людей та забезпечте команді спокійніший робочий процес."
+    },
+    "form": {
+      "titleRegister": "Створіть свій акаунт",
+      "titleForgot": "Скидання пароля",
+      "titleReset": "Оберіть новий пароль",
+      "titleLogin": "З поверненням",
+      "descRegister": "Почніть керувати віртуальними чергами вже сьогодні.",
+      "descForgot": "Введіть електронну пошту, і ми надішлемо посилання для скидання.",
+      "descReset": "Використовуйте надійний пароль, який не використовується на інших сайтах.",
+      "descLogin": "Увійдіть, щоб перейти до робочого простору.",
+      "google": "Продовжити з Google",
+      "or": "або",
+      "nameLabel": "Ім'я",
+      "namePlaceholder": "Джордан Девіс",
+      "nicknameLabel": "Нікнейм",
+      "nicknamePlaceholder": "jordan",
+      "emailLabel": "Електронна пошта",
+      "emailOrNicknameLabel": "Електронна пошта або нікнейм",
+      "emailPlaceholder": "you@example.com",
+      "emailOrNicknamePlaceholder": "you@example.com або jordan",
+      "passwordLabel": "Пароль",
+      "newPasswordLabel": "Новий пароль",
+      "passwordPlaceholder": "••••••••",
+      "togglePassword": "Перемкнути видимість пароля",
+      "confirmPasswordLabel": "Підтвердження пароля",
+      "confirmPasswordPlaceholder": "••••••••",
+      "reqMinChars": "Щонайменше 8 символів",
+      "reqUppercase": "Одна велика літера",
+      "reqNumber": "Одна цифра або символ",
+      "forgotPassword": "Забули пароль?",
+      "submitRegister": "Створити акаунт",
+      "submitForgot": "Надіслати посилання",
+      "submitReset": "Скинути пароль",
+      "submitLogin": "Увійти",
+      "alreadyHaveAccount": "Вже маєте акаунт?",
+      "dontHaveAccount": "Ще не маєте акаунта?",
+      "registerLink": "Зареєструватися",
+      "loginLink": "Увійти",
+      "backToLogin": "Назад до входу"
+    }
+  },
+  "dashboard": {
+    "shell": {
+      "workspace": "Робочий простір",
+      "insights": "Аналітика та дані",
+      "account": "Акаунт",
+      "overview": "Огляд",
+      "myQueues": "Мої черги",
+      "createQueue": "Створити чергу",
+      "joinedQueues": "Черги, де ви є",
+      "analytics": "Аналітика",
+      "notifications": "Сповіщення",
+      "profile": "Профіль",
+      "settings": "Налаштування",
+      "logout": "Вийти",
+      "searchPlaceholder": "Пошук будь-чого",
+      "closeNav": "Закрити навігацію",
+      "openNav": "Відкрити навігацію",
+      "help": "Допомога",
+      "notificationsAria": "Сповіщення"
+    },
+    "screen": {
+      "eyebrow": "Огляд робочого простору",
+      "title": "Доброго ранку, {name}",
+      "description": "Ось що відбувається у ваших чергах сьогодні.",
+      "createQueue": "Створити чергу",
+      "activeQueues": "Активні черги",
+      "totalVisitors": "Усього відвідувачів",
+      "peopleWaiting": "Людей у черзі",
+      "completedToday": "Завершено сьогодні",
+      "activeQueuesTitle": "Активні черги",
+      "activeQueuesSubtitle": "Поточний статус у робочому просторі",
+      "viewAll": "Переглянути всі",
+      "waiting": "Очікують",
+      "avgWait": "Сер. час",
+      "quickActionsTitle": "Швидкі дії",
+      "quickActionsSubtitle": "Часті завдання в один клік",
+      "createQueueAction": "Створити чергу",
+      "joinQueueAction": "Приєднатися до черги",
+      "shareQueueAction": "Поділитися чергою",
+      "weeklyCompletion": "Завершення за тиждень",
+      "recentActivity": "Остання активність",
+      "queuePerformance": "Продуктивність черг",
+      "queuePerformanceSubtitle": "Середній час очікування цього тижня",
+      "details": "Деталі"
+    }
+  },
+  "analytics": {
+    "screen": {
+      "title": "Аналітика",
+      "description": "Дізнайтеся, як змінюється ефективність ваших черг із часом.",
+      "totalQueues": "Усього черг",
+      "totalVisitors": "Усього відвідувачів",
+      "avgWait": "Середнє очікування",
+      "completionRate": "Рівень завершення",
+      "visitorsPerDay": "Відвідувачів на день",
+      "visitorsPerDaySubtitle": "Загальна кількість відвідувачів у всіх чергах",
+      "queueCompletion": "Завершення черг",
+      "queueCompletionSubtitle": "За чергами за цей місяць",
+      "peakHours": "Пікові години",
+      "peakHoursSubtitle": "Коли відвідувачі найчастіше приєднуються",
+      "avgWaitingTitle": "Середній час очікування",
+      "avgWaitingSubtitle": "Порівняно з попереднім періодом"
+    }
+  },
+  "notifications": {
+    "screen": {
+      "title": "Сповіщення",
+      "description": "Будьте в курсі подій у ваших чергах.",
+      "markAllRead": "Позначити всі як прочитані",
+      "allTab": "Усі",
+      "unreadTab": "Непрочитані",
+      "markAsReadAria": "Позначити як прочитане",
+      "emptyTitle": "Усе переглянуто",
+      "emptyDescription": "Нові події черг та нагадування з'являтимуться тут."
+    }
+  },
+  "profile": {
+    "screen": {
+      "title": "Профіль",
+      "description": "Керуйте інформацією, пов'язаною з вашим робочим простором.",
+      "saveChanges": "Зберегти зміни",
+      "changeAvatar": "Змінити аватар",
+      "removeAvatar": "Видалити аватар",
+      "infoTitle": "Інформація профілю",
+      "infoSubtitle": "Так ваше ім'я відображатиметься для вашої команди.",
+      "name": "Ім'я",
+      "nickname": "Нікнейм",
+      "email": "Електронна пошта",
+      "phone": "Телефон",
+      "phonePlaceholder": "Додайте номер телефону",
+      "accountTitle": "Інформація про акаунт",
+      "accountCreated": "Акаунт створено",
+      "authProvider": "Провайдер автентифікації",
+      "googleAccount": "Google акаунт"
+    }
+  },
+  "settings": {
+    "screen": {
+      "title": "Налаштування",
+      "description": "Налаштуйте параметри робочого простору та сповіщень.",
+      "saveChanges": "Зберегти зміни",
+      "generalTitle": "Загальне",
+      "generalSubtitle": "Ваші регіональні параметри та вигляд інтерфейсу за замовчуванням.",
+      "language": "Мова",
+      "timezone": "Часовий пояс",
+      "theme": "Тема",
+      "themeLight": "Світла",
+      "themeDark": "Темна",
+      "themeSystem": "Системна",
+      "notificationsTitle": "Сповіщення",
+      "notificationsSubtitle": "Оберіть, які оновлення ви бажаєте отримувати.",
+      "emailNotifications": "Сповіщення електронною поштою",
+      "emailNotificationsDesc": "Отримуйте важливі оновлення акаунта на пошту.",
+      "browserNotifications": "Сповіщення у браузері",
+      "browserNotificationsDesc": "Показувати сповіщення під час використання додатка.",
+      "queueUpdates": "Оновлення черги",
+      "queueUpdatesDesc": "Отримуйте сповіщення про зміну позиції та статусу.",
+      "marketingNotifications": "Маркетингові сповіщення",
+      "marketingNotificationsDesc": "Періодичні поради щодо продукту та анонси.",
+      "securityTitle": "Безпека та конфіденційність",
+      "securitySubtitle": "Зберігайте акаунт у безпеці та контролюйте власні дані.",
+      "currentPassword": "Поточний пароль",
+      "changePassword": "Змінити пароль",
+      "profileVisibility": "Видимість профілю",
+      "profileVisibilityDesc": "Дозволити операторам черги бачити ваш нікнейм під час приєднання."
+    }
+  },
+  "queue": {
+    "create": {
+      "backLink": "Назад до черг",
+      "eyebrow": "Новий ресурс простору",
+      "title": "Створити чергу",
+      "description": "Налаштуйте чергу, до якої клієнти зможуть приєднатися звідусіль.",
+      "stepBasics": "Основне",
+      "stepSettings": "Налаштування",
+      "stepAccess": "Доступ",
+      "stepReview": "Перегляд",
+      "basicInfoTitle": "Основна інформація",
+      "basicInfoSubtitle": "Надайте вашій черзі зрозумілу назву та опис.",
+      "nameLabel": "Назва черги",
+      "namePlaceholder": "напр. Барбершоп на Подолі",
+      "descLabel": "Опис",
+      "descPlaceholder": "Розкажіть відвідувачам, для чого ця черга...",
+      "categoryLabel": "Категорія",
+      "categoryPlaceholder": "Оберіть категорію",
+      "locationLabel": "Локація",
+      "locationPlaceholder": "вул. Хрещатик, 1",
+      "configTitle": "Конфігурація черги",
+      "configSubtitle": "Допоможіть відвідувачам розуміти темп черги.",
+      "maxPeopleLabel": "Максимальна кількість людей",
+      "maxPeoplePlaceholder": "50",
+      "avgServiceTimeLabel": "Середній час обслуговування",
+      "avgServiceTimePlaceholder": "15 хвилин",
+      "openingTimeLabel": "Час відкриття",
+      "closingTimeLabel": "Час закриття",
+      "accessTitle": "Доступ та сповіщення",
+      "accessSubtitle": "Оберіть спосіб взаємодії відвідувачів із чергою.",
+      "allowRemoteJoin": "Дозволити віддалене приєднання",
+      "allowRemoteJoinDesc": "Відвідувачі можуть зайняти чергу до прибуття на місце.",
+      "requireNickname": "Вимагати нікнейм",
+      "requireNicknameDesc": "Просити відвідувачів вказати нікнейм для ідентифікації.",
+      "allowLeave": "Дозволити залишати чергу",
+      "allowLeaveDesc": "Дозволити людям самостійно виходити з черги.",
+      "sendNotifications": "Надсилати сповіщення",
+      "sendNotificationsDesc": "Сповіщати відвідувачів про зміну їхньої позиції.",
+      "changeNotice": "Ці параметри можна змінити пізніше в керуванні чергою.",
+      "cancel": "Скасувати",
+      "saveDraft": "Зберегти як чернетку",
+      "submit": "Створити чергу"
+    },
+    "join": {
+      "backLink": "Назад до черги",
+      "title": "Приєднатися до Northside Dental Clinic",
+      "subtitle": "Ви за крок від збереження свого місця.",
+      "stepTitle": "Ваша інформація",
+      "stepSubtitle": "Це допоможе команді ідентифікувати вас.",
+      "nameLabel": "Ім'я або нікнейм",
+      "namePlaceholder": "Як до вас звертатися?",
+      "contactLabel": "Телефон або email (необов'язково)",
+      "contactPlaceholder": "you@example.com",
+      "continue": "Продовжити",
+      "estimateTitle": "Поточна оцінка черги",
+      "estimateText": "14 людей очікують · приблизно 32 хвилини",
+      "confirmedTitle": "Ви в черзі",
+      "confirmedSubtitle": "Залиште цю сторінку відкритою для відстеження оновлень.",
+      "positionLabel": "Ваша позиція",
+      "estimatedWaitLabel": "Очікуваний час"
+    },
+    "joined": {
+      "title": "Черги, де ви є",
+      "description": "Відстежуйте черги, в яких ви зберегли за собою місце.",
+      "activeTab": "Активні (2)",
+      "historyTab": "Історія (1)",
+      "position": "Позиція",
+      "ahead": "Попереду",
+      "wait": "Очікування",
+      "viewQueue": "Переглянути чергу",
+      "emptyTitle": "Більше немає активних черг",
+      "emptyDesc": "Коли ви приєднаєтеся до нової черги, вона з'явиться тут з оновленням позиції наживо.",
+      "findQueue": "Знайти чергу"
+    },
+    "public": {
+      "brand": "Virtual Queue",
+      "manageQueues": "Керування чергами",
+      "openStatus": "Відкрито та приймає відвідувачів",
+      "peopleWaiting": "Людей у черзі",
+      "estimatedWait": "Очікуваний час",
+      "hoursToday": "Години роботи сьогодні",
+      "joinQueue": "Приєднатися до черги",
+      "copyLink": "Копіювати посилання",
+      "showQr": "Показати QR-код"
+    },
+    "history": {
+      "backLink": "Назад до черги",
+      "title": "Історія черги",
+      "description": "Підсумок ефективності та активності відвідувачів для Downtown Barber Shop.",
+      "exportReport": "Експортувати звіт",
+      "totalVisitors": "Усього відвідувачів",
+      "avgWait": "Сер. час очікування",
+      "completedUsers": "Обслуговано користувачів",
+      "usersLeft": "Користувачі, які пішли",
+      "visitorsTitle": "Відвідувачі",
+      "visitorsSubtitle": "Останні результати відвідувачів",
+      "waited": "чекав(ла) {wait}",
+      "lifecycleTitle": "Життєвий цикл"
+    },
+    "management": {
+      "backLink": "Назад до черг",
+      "description": "Керуйте чергою наживо та пришвидшуйте обслуговування відвідувачів.",
+      "copyLink": "Копіювати посилання",
+      "qrCode": "QR-код",
+      "pauseQueue": "Призупинити чергу",
+      "close": "Закрити",
+      "active": "Активна",
+      "queueCode": "Код черги:",
+      "openToday": "Відкрито сьогодні з 9:00 до 17:00",
+      "peopleWaiting": "Людей у черзі",
+      "averageWait": "Середній час очікування",
+      "servedToday": "Обслуговано сьогодні",
+      "nowServing": "Зараз обслуговується",
+      "ticketWait": "Талон {ticket} · очікування {wait}",
+      "complete": "Завершити",
+      "skip": "Пропустити",
+      "remove": "Видалити",
+      "waitingList": "Список очікування",
+      "visitorsWaiting": "{count} відвідувачів очікують",
+      "callNext": "Викликати наступного",
+      "callAria": "Викликати {name}",
+      "removeAria": "Видалити {name}",
+      "activityTitle": "Активність",
+      "activitySubtitle": "Останні події в черзі"
+    },
+    "list": {
+      "title": "Мої черги",
+      "description": "Створюйте та керуйте всіма чергами з одного робочого простору.",
+      "createQueue": "Створити чергу",
+      "searchPlaceholder": "Пошук черг",
+      "thQueue": "Черга",
+      "thStatus": "Статус",
+      "thWaiting": "Очікують",
+      "thAvgWait": "Сер. час",
+      "thCreated": "Створено",
+      "view": "Переглянути",
+      "share": "Поділитися",
+      "pause": "Призупинити",
+      "resume": "Відновити",
+      "delete": "Видалити",
+      "viewQueue": "Переглянути чергу"
+    }
   }
 }

@@ -1,6 +1,492 @@
 {
   "home": {
-    "title": "test",
-    "description": "test"
+    "header": {
+      "brand": "Virtual Queue",
+      "navigationLabel": "Main navigation",
+      "howItWorks": "How it works",
+      "features": "Features",
+      "pricing": "Pricing",
+      "signIn": "Log in",
+      "register": "Register"
+    },
+    "hero": {
+      "eyebrow": "A calmer way to wait",
+      "title": "Skip the line.",
+      "titleAccent": "Keep your place.",
+      "description": "Join a queue from wherever you are, see exactly where you stand, and get on with your day while we keep your place warm.",
+      "primaryCta": "Register",
+      "secondaryCta": "How it works",
+      "socialProof": "Loved by people who value their time"
+    },
+    "queuePreview": {
+      "eyebrow": "Your live queue",
+      "location": "Northside Clinic",
+      "active": "Active",
+      "ticket": "Your ticket",
+      "position": "Position",
+      "estimatedWait": "Estimated wait",
+      "updated": "Updated just now"
+    },
+    "features": {
+      "eyebrow": "Built for better waits",
+      "title": "Everything you need to stay one step ahead.",
+      "description": "A simple queue experience for the moments when your time matters most.",
+      "remote": {
+        "title": "Join remotely",
+        "description": "Take your place before you arrive, from any device."
+      },
+      "position": {
+        "title": "Know your place",
+        "description": "See your position clearly without refreshing or guessing."
+      },
+      "updates": {
+        "title": "Stay in the loop",
+        "description": "Receive timely updates as the queue moves forward."
+      }
+    },
+    "howItWorks": {
+      "eyebrow": "Three simple steps",
+      "title": "Your place in line, made visible.",
+      "find": {
+        "title": "Find a queue",
+        "description": "Choose the service you need and see current availability."
+      },
+      "join": {
+        "title": "Join remotely",
+        "description": "Enter a few details and receive your digital ticket."
+      },
+      "track": {
+        "title": "Track your position",
+        "description": "Follow the live updates and arrive when it is your turn."
+      }
+    },
+    "useCases": {
+      "eyebrow": "Made for busy places",
+      "title": "One calmer flow for every kind of wait.",
+      "description": "Give visitors visibility and give teams a simpler way to keep the day moving.",
+      "clinics": {
+        "title": "Clinics",
+        "description": "Appointments"
+      },
+      "barbershops": {
+        "title": "Barbershops",
+        "description": "Walk-ins"
+      },
+      "restaurants": {
+        "title": "Restaurants",
+        "description": "Tables"
+      },
+      "serviceCenters": {
+        "title": "Service centers",
+        "description": "Requests"
+      },
+      "events": {
+        "title": "Events",
+        "description": "Check-in"
+      },
+      "offices": {
+        "title": "Offices",
+        "description": "Visitors"
+      }
+    },
+    "pricing": {
+      "eyebrow": "Simple pricing",
+      "title": "Start small. Scale when you are ready.",
+      "description": "Everything you need to replace the waiting room with a better experience.",
+      "popular": "Most popular",
+      "cta": "Get started",
+      "starter": {
+        "name": "Starter",
+        "description": "For one location getting started.",
+        "price": "$0",
+        "queues": "1 active queue",
+        "members": "Up to 50 visitors",
+        "analytics": "Basic insights"
+      },
+      "team": {
+        "name": "Team",
+        "description": "For growing service teams.",
+        "price": "$29",
+        "queues": "Unlimited queues",
+        "members": "Unlimited visitors",
+        "analytics": "Advanced analytics"
+      },
+      "scale": {
+        "name": "Scale",
+        "description": "For multi-location operations.",
+        "price": "$79",
+        "queues": "Multiple locations",
+        "members": "Team permissions",
+        "analytics": "Exportable reports"
+      }
+    },
+    "cta": {
+      "eyebrow": "Your time is yours",
+      "title": "Ready to leave the waiting behind?",
+      "description": "Join a queue in a few taps and spend the time before your turn exactly how you want.",
+      "button": "Register",
+      "note": "Get started in a few moments"
+    },
+    "footer": {
+      "brand": "Virtual Queue",
+      "features": "Features",
+      "howItWorks": "How it works",
+      "signIn": "Log in",
+      "copyright": "© 2026 Virtual Queue"
+    }
+  },
+  "Filters": {
+    "open": "Filters",
+    "status": "Status",
+    "allStatuses": "All statuses",
+    "active": "Active",
+    "paused": "Paused",
+    "closed": "Closed",
+    "draft": "Draft",
+    "category": "Category",
+    "allCategories": "All categories",
+    "clinic": "Clinic",
+    "barbershop": "Barbershop",
+    "restaurant": "Restaurant",
+    "serviceCenter": "Service center",
+    "sortBy": "Sort by",
+    "newest": "Newest first",
+    "oldest": "Oldest first",
+    "mostPeople": "Most people",
+    "leastPeople": "Least people",
+    "clear": "Clear filters",
+    "apply": "Apply filters"
+  },
+  "Common": {
+    "search": "Search",
+    "backToHome": "Back to home",
+    "goToDashboard": "Go to dashboard",
+    "retry": "Try again",
+    "loading": "Loading"
+  },
+  "Errors": {
+    "genericTitle": "Something went wrong.",
+    "genericDescription": "Try refreshing the page. Your data is safe.",
+    "notFoundTitle": "We couldn’t find that page.",
+    "notFoundDescription": "The page may have moved or the link may be incomplete.",
+    "forbiddenTitle": "Access is restricted.",
+    "forbiddenDescription": "You do not have permission to view this page."
+  },
+  "auth": {
+    "layout": {
+      "brand": "Virtual Queue",
+      "backToHome": "Back to home",
+      "heroTitle": "Make every minute count.",
+      "heroSubtitle": "Manage queues, keep people informed, and give your team a calmer way to work."
+    },
+    "form": {
+      "titleRegister": "Create your account",
+      "titleForgot": "Reset your password",
+      "titleReset": "Choose a new password",
+      "titleLogin": "Welcome back",
+      "descRegister": "Start managing your virtual queues today.",
+      "descForgot": "Enter your email and we’ll send you a reset link.",
+      "descReset": "Use a strong password you do not reuse elsewhere.",
+      "descLogin": "Sign in to continue to your workspace.",
+      "google": "Continue with Google",
+      "or": "or",
+      "nameLabel": "Name",
+      "namePlaceholder": "Jordan Davis",
+      "nicknameLabel": "Nickname",
+      "nicknamePlaceholder": "jordan",
+      "emailLabel": "Email",
+      "emailOrNicknameLabel": "Email or nickname",
+      "emailPlaceholder": "you@example.com",
+      "emailOrNicknamePlaceholder": "you@example.com or jordan",
+      "passwordLabel": "Password",
+      "newPasswordLabel": "New password",
+      "passwordPlaceholder": "••••••••",
+      "togglePassword": "Toggle password visibility",
+      "confirmPasswordLabel": "Confirm password",
+      "confirmPasswordPlaceholder": "••••••••",
+      "reqMinChars": "At least 8 characters",
+      "reqUppercase": "One uppercase character",
+      "reqNumber": "One number or symbol",
+      "forgotPassword": "Forgot password?",
+      "submitRegister": "Create account",
+      "submitForgot": "Send reset link",
+      "submitReset": "Reset password",
+      "submitLogin": "Log in",
+      "alreadyHaveAccount": "Already have an account?",
+      "dontHaveAccount": "Don’t have an account?",
+      "registerLink": "Register",
+      "loginLink": "Log in",
+      "backToLogin": "Back to login"
+    }
+  },
+  "dashboard": {
+    "shell": {
+      "workspace": "Workspace",
+      "insights": "Insights",
+      "account": "Account",
+      "overview": "Overview",
+      "myQueues": "My queues",
+      "createQueue": "Create queue",
+      "joinedQueues": "Joined queues",
+      "analytics": "Analytics",
+      "notifications": "Notifications",
+      "profile": "Profile",
+      "settings": "Settings",
+      "logout": "Log out",
+      "searchPlaceholder": "Search anything",
+      "closeNav": "Close navigation",
+      "openNav": "Open navigation",
+      "help": "Help",
+      "notificationsAria": "Notifications"
+    },
+    "screen": {
+      "eyebrow": "Workspace overview",
+      "title": "Good morning, {name}",
+      "description": "Here’s what is happening across your queues today.",
+      "createQueue": "Create queue",
+      "activeQueues": "Active queues",
+      "totalVisitors": "Total visitors",
+      "peopleWaiting": "People waiting",
+      "completedToday": "Completed today",
+      "activeQueuesTitle": "Active queues",
+      "activeQueuesSubtitle": "Live status across your workspace",
+      "viewAll": "View all",
+      "waiting": "Waiting",
+      "avgWait": "Avg. wait",
+      "quickActionsTitle": "Quick actions",
+      "quickActionsSubtitle": "Common tasks, one click away",
+      "createQueueAction": "Create a queue",
+      "joinQueueAction": "Join a queue",
+      "shareQueueAction": "Share a queue",
+      "weeklyCompletion": "Weekly completion",
+      "recentActivity": "Recent activity",
+      "queuePerformance": "Queue performance",
+      "queuePerformanceSubtitle": "Average wait time this week",
+      "details": "Details"
+    }
+  },
+  "analytics": {
+    "screen": {
+      "title": "Analytics",
+      "description": "Understand how your queues are performing over time.",
+      "totalQueues": "Total queues",
+      "totalVisitors": "Total visitors",
+      "avgWait": "Average wait",
+      "completionRate": "Completion rate",
+      "visitorsPerDay": "Visitors per day",
+      "visitorsPerDaySubtitle": "Total visitors across all queues",
+      "queueCompletion": "Queue completion",
+      "queueCompletionSubtitle": "By queue this month",
+      "peakHours": "Peak hours",
+      "peakHoursSubtitle": "When visitors are most likely to join",
+      "avgWaitingTitle": "Average waiting time",
+      "avgWaitingSubtitle": "Compared with the previous period"
+    }
+  },
+  "notifications": {
+    "screen": {
+      "title": "Notifications",
+      "description": "Stay up to date with activity across your queues.",
+      "markAllRead": "Mark all as read",
+      "allTab": "All",
+      "unreadTab": "Unread",
+      "markAsReadAria": "Mark as read",
+      "emptyTitle": "You’re all caught up",
+      "emptyDescription": "New queue activity and reminders will appear here."
+    }
+  },
+  "profile": {
+    "screen": {
+      "title": "Profile",
+      "description": "Manage the information connected to your workspace.",
+      "saveChanges": "Save changes",
+      "changeAvatar": "Change avatar",
+      "removeAvatar": "Remove avatar",
+      "infoTitle": "Profile information",
+      "infoSubtitle": "This is how your name appears to your team.",
+      "name": "Name",
+      "nickname": "Nickname",
+      "email": "Email",
+      "phone": "Phone",
+      "phonePlaceholder": "Add a phone number",
+      "accountTitle": "Account information",
+      "accountCreated": "Account created",
+      "authProvider": "Authentication provider",
+      "googleAccount": "Google account"
+    }
+  },
+  "settings": {
+    "screen": {
+      "title": "Settings",
+      "description": "Customize your workspace and notification preferences.",
+      "saveChanges": "Save changes",
+      "generalTitle": "General",
+      "generalSubtitle": "Your default regional and appearance preferences.",
+      "language": "Language",
+      "timezone": "Timezone",
+      "theme": "Theme",
+      "themeLight": "Light",
+      "themeDark": "Dark",
+      "themeSystem": "System",
+      "notificationsTitle": "Notifications",
+      "notificationsSubtitle": "Choose which updates reach you.",
+      "emailNotifications": "Email notifications",
+      "emailNotificationsDesc": "Receive important account updates by email.",
+      "browserNotifications": "Browser notifications",
+      "browserNotificationsDesc": "Show notifications while you are using the app.",
+      "queueUpdates": "Queue updates",
+      "queueUpdatesDesc": "Get notified about position and status changes.",
+      "marketingNotifications": "Marketing notifications",
+      "marketingNotificationsDesc": "Occasional product tips and announcements.",
+      "securityTitle": "Security and privacy",
+      "securitySubtitle": "Keep your account safe and your data in your control.",
+      "currentPassword": "Current password",
+      "changePassword": "Change password",
+      "profileVisibility": "Profile visibility",
+      "profileVisibilityDesc": "Allow queue operators to see your nickname when you join."
+    }
+  },
+  "queue": {
+    "create": {
+      "backLink": "Back to queues",
+      "eyebrow": "New workspace asset",
+      "title": "Create a queue",
+      "description": "Set up a queue your customers can join from anywhere.",
+      "stepBasics": "Basics",
+      "stepSettings": "Settings",
+      "stepAccess": "Access",
+      "stepReview": "Review",
+      "basicInfoTitle": "Basic information",
+      "basicInfoSubtitle": "Give your queue a clear identity.",
+      "nameLabel": "Queue name",
+      "namePlaceholder": "e.g. Downtown Barber Shop",
+      "descLabel": "Description",
+      "descPlaceholder": "Tell visitors what this queue is for...",
+      "categoryLabel": "Category",
+      "categoryPlaceholder": "Select a category",
+      "locationLabel": "Location",
+      "locationPlaceholder": "123 Main Street",
+      "configTitle": "Queue configuration",
+      "configSubtitle": "Help visitors understand how the queue moves.",
+      "maxPeopleLabel": "Maximum people",
+      "maxPeoplePlaceholder": "50",
+      "avgServiceTimeLabel": "Average service time",
+      "avgServiceTimePlaceholder": "15 minutes",
+      "openingTimeLabel": "Opening time",
+      "closingTimeLabel": "Closing time",
+      "accessTitle": "Access and notifications",
+      "accessSubtitle": "Choose how visitors can interact with the queue.",
+      "allowRemoteJoin": "Allow remote joining",
+      "allowRemoteJoinDesc": "Visitors can join before arriving at your location.",
+      "requireNickname": "Require nickname",
+      "requireNicknameDesc": "Ask visitors to identify themselves with a nickname.",
+      "allowLeave": "Allow visitors to leave",
+      "allowLeaveDesc": "Let people remove themselves from the queue.",
+      "sendNotifications": "Send queue notifications",
+      "sendNotificationsDesc": "Notify visitors when their position changes.",
+      "changeNotice": "These settings can be changed later from queue management.",
+      "cancel": "Cancel",
+      "saveDraft": "Save as draft",
+      "submit": "Create queue"
+    },
+    "join": {
+      "backLink": "Back to queue",
+      "title": "Join Northside Dental Clinic",
+      "subtitle": "You are one step away from saving your place.",
+      "stepTitle": "Your information",
+      "stepSubtitle": "This helps the team identify you.",
+      "nameLabel": "Name or nickname",
+      "namePlaceholder": "How should we call you?",
+      "contactLabel": "Phone or email (optional)",
+      "contactPlaceholder": "you@example.com",
+      "continue": "Continue",
+      "estimateTitle": "Current queue estimate",
+      "estimateText": "14 people waiting · approximately 32 minutes",
+      "confirmedTitle": "You are in the queue",
+      "confirmedSubtitle": "Keep this page open for live updates.",
+      "positionLabel": "Your position",
+      "estimatedWaitLabel": "Estimated wait"
+    },
+    "joined": {
+      "title": "Joined queues",
+      "description": "Keep track of places you have saved for yourself.",
+      "activeTab": "Active (2)",
+      "historyTab": "History (1)",
+      "position": "Position",
+      "ahead": "Ahead",
+      "wait": "Wait",
+      "viewQueue": "View queue",
+      "emptyTitle": "No more active queues",
+      "emptyDesc": "When you join another queue, it will appear here with live position updates.",
+      "findQueue": "Find a queue"
+    },
+    "public": {
+      "brand": "Virtual Queue",
+      "manageQueues": "Manage queues",
+      "openStatus": "Open and accepting visitors",
+      "peopleWaiting": "People waiting",
+      "estimatedWait": "Estimated wait",
+      "hoursToday": "Hours today",
+      "joinQueue": "Join this queue",
+      "copyLink": "Copy queue link",
+      "showQr": "Show QR code"
+    },
+    "history": {
+      "backLink": "Back to queue",
+      "title": "Queue history",
+      "description": "A summary of performance and visitor activity for Downtown Barber Shop.",
+      "exportReport": "Export report",
+      "totalVisitors": "Total visitors",
+      "avgWait": "Avg. waiting time",
+      "completedUsers": "Completed users",
+      "usersLeft": "Users who left",
+      "visitorsTitle": "Visitors",
+      "visitorsSubtitle": "Recent visitor outcomes",
+      "waited": "waited {wait}",
+      "lifecycleTitle": "Lifecycle"
+    },
+    "management": {
+      "backLink": "Back to queues",
+      "description": "Manage your live queue and keep visitors moving.",
+      "copyLink": "Copy link",
+      "qrCode": "QR code",
+      "pauseQueue": "Pause queue",
+      "close": "Close",
+      "active": "Active",
+      "queueCode": "Queue code:",
+      "openToday": "Open today 9:00 AM – 5:00 PM",
+      "peopleWaiting": "People waiting",
+      "averageWait": "Average wait",
+      "servedToday": "Served today",
+      "nowServing": "Now serving",
+      "ticketWait": "Ticket {ticket} · waiting {wait}",
+      "complete": "Complete",
+      "skip": "Skip",
+      "remove": "Remove",
+      "waitingList": "Waiting list",
+      "visitorsWaiting": "{count} visitors are waiting",
+      "callNext": "Call next",
+      "callAria": "Call {name}",
+      "removeAria": "Remove {name}",
+      "activityTitle": "Activity",
+      "activitySubtitle": "Latest queue events"
+    },
+    "list": {
+      "title": "My queues",
+      "description": "Create and manage every queue from one workspace.",
+      "createQueue": "Create queue",
+      "searchPlaceholder": "Search queues",
+      "thQueue": "Queue",
+      "thStatus": "Status",
+      "thWaiting": "Waiting",
+      "thAvgWait": "Avg. wait",
+      "thCreated": "Created",
+      "view": "View",
+      "share": "Share",
+      "pause": "Pause",
+      "resume": "Resume",
+      "delete": "Delete",
+      "viewQueue": "View queue"
+    }
   }
 }

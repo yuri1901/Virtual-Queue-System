@@ -1,0 +1,25 @@
+const profileScreenStyles = {
+  root: "mx-auto max-w-4xl space-y-6",
+  grid: "grid gap-6 lg:grid-cols-[220px_1fr]",
+  avatarCard: "h-fit p-5 text-center",
+  avatar: "mx-auto flex size-24 items-center justify-center rounded-full bg-[var(--accent-soft)] text-2xl font-semibold text-[var(--accent-dark)]",
+  changeAvatarBtn: "mt-4 w-full",
+  cameraIcon: "size-4",
+  removeAvatarBtn: "mt-2 text-xs font-medium text-[var(--danger)]",
+  mainColumn: "space-y-6",
+  infoCard: "p-5 sm:p-7",
+  cardTitle: "font-semibold text-[var(--ink)]",
+  cardSubtitle: "mt-1 text-sm text-[var(--muted)]",
+  inputsGrid: "mt-6 grid gap-5 sm:grid-cols-2",
+  accountCard: "p-5 sm:p-7",
+  accountTitle: "font-semibold text-[var(--ink)]",
+  accountList: "mt-5 divide-y divide-[var(--line)] text-sm",
+  accountRow: "flex justify-between gap-4 py-3",
+  rowLabel: "text-[var(--muted)]",
+  rowValue: "font-medium",
+  providerValue: "inline-flex items-center gap-2 font-medium",
+  mailIcon: "size-4 text-[var(--muted)]",
+  mutedValue: "font-medium text-[var(--muted)]",
+};
+
+export { profileScreenStyles };

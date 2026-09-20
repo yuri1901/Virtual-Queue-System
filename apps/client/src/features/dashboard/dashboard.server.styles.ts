@@ -1,0 +1,3 @@
+const dashboardServerStyles = {};
+
+export { dashboardServerStyles };

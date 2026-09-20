@@ -676,4 +676,76 @@ semantic colors only for statuses
 
 If a UI decision introduces another strong color without semantic meaning, prefer the primary accent or a neutral color instead.
 
+## Export Style
+
+Prefer named exports declared separately at the end of the file.
+
+This rule applies to most exported values, including:
+
+- components;
+- hooks;
+- functions;
+- constants;
+- mock data;
+- style objects;
+- utility functions.
+
+Declare values first, then export them separately at the end of the file.
+
+Preferred:
+
+```ts
+const buttonStyles = {
+  root: "...",
+};
+
+function Button() {
+  return <button />;
+}
+
+export { Button, buttonStyles };
+````
+
+Avoid:
+
+```ts
+export const buttonStyles = {
+  root: "...",
+};
+
+export function Button() {
+  return <button />;
+}
+```
+
+The same rule applies to mock files.
+
+Preferred:
+
+```ts
+const ANALYTICS_MOCK_DATA = {
+  ...
+};
+
+export { ANALYTICS_MOCK_DATA };
+```
+
+Avoid:
+
+```ts
+export const ANALYTICS_MOCK_DATA = {
+  ...
+};
+```
+
+Rules:
+
+* Prefer `export { ... }` at the end of the file.
+* Prefer named exports over default exports.
+* Avoid inline `export const` and `export function` in most project files.
+* Apply the same convention to `.mock.ts`, `.styles.ts`, hooks, utilities, constants, and components.
+* Static mock constants should use `UPPER_SNAKE_CASE`, for example `ANALYTICS_MOCK_DATA`.
+* Keep `index.ts` files focused on re-exports.
+* Use inline exports or default exports only when there is a clear technical reason or an external framework/library requires that pattern.
+
 <!-- END:nextjs-agent-rules -->

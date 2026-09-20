@@ -1,0 +1,3 @@
+const authServerStyles = {};
+
+export { authServerStyles };

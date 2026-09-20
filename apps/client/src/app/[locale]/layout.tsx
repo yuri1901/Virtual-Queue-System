@@ -1,15 +1,16 @@
+import "./globals.css";
+
+import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
+import { Toaster } from "sonner";
+
 import { routing } from "@/i18n/routing";
 import { metadataConfig } from "@/libs/config";
 import { QueryProvider } from "@/providers";
-import { Toaster } from "sonner";
-
-import type { Metadata } from "next";
-import "./globals.css";
 
 export const metadata: Metadata = metadataConfig;
 
-export default function RootLayout({ children }: LayoutProps<"/[locale]">) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>
