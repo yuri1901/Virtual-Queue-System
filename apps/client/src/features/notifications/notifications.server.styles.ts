@@ -1,0 +1,3 @@
+const notificationsServerStyles = {};
+
+export { notificationsServerStyles };
