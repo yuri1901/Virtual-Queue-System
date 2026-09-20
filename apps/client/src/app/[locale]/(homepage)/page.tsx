@@ -1,17 +1,5 @@
-import { Test } from "@/features/test";
+import { HomepageFeature } from "@/features/homepage/homepage.server";
 
-type Props = {
-  params: Promise<{
-    locale: string;
-  }>;
-};
-
-export default async function Home({ params }: Props) {
-  const { locale } = await params;
-  return (
-    <>
-      <div>current locale {locale}</div>
-      <Test />
-    </>
-  );
+export default function Home() {
+  return <HomepageFeature />;
 }

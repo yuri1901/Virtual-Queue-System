@@ -1,0 +1,26 @@
+const queuePreviewStyles = {
+  root: "relative mx-auto w-full max-w-[440px]",
+  glow: "absolute -inset-5 rounded-[2rem] bg-[var(--accent-soft)]/70 blur-2xl",
+  card: "relative overflow-hidden rounded-[1.75rem] border border-[var(--border)] bg-[var(--surface)] p-[var(--card-padding)] shadow-[var(--shadow-lg)] sm:p-[var(--card-padding-lg)]",
+  header: "flex items-center justify-between border-b border-[var(--line)] pb-5",
+  queueType: "text-xs font-semibold uppercase tracking-[0.14em] text-[var(--muted)]",
+  queueTitle: "mt-1 text-base font-semibold text-[var(--ink)]",
+  badge: "flex items-center gap-2 rounded-full bg-[var(--success-soft)] px-3 py-1.5 text-xs font-semibold text-[var(--success)]",
+  badgeDot: "size-1.5 rounded-full bg-current",
+  body: "py-7",
+  positionRow: "flex items-end justify-between",
+  positionLabel: "text-sm text-[var(--muted)]",
+  positionValue: "mt-2 text-5xl font-semibold tracking-[-0.06em] text-[var(--ink)]",
+  sparklesIcon: "mb-2 size-7 text-[var(--accent)]",
+  progressTrack: "mt-7 h-2 overflow-hidden rounded-full bg-[var(--surface-muted)]",
+  progressBar: "h-full rounded-full bg-[var(--accent)]",
+  grid: "grid grid-cols-2 gap-3 border-t border-[var(--line)] pt-5",
+  statBox: "rounded-2xl bg-[var(--surface-muted)] p-4",
+  statIcon: "size-4 text-[var(--accent)]",
+  statLabel: "mt-4 text-xs text-[var(--muted)]",
+  statValue: "mt-1 text-lg font-semibold text-[var(--ink)]",
+  footer: "mt-4 flex items-center gap-2 text-xs text-[var(--muted)]",
+  checkIcon: "size-3.5 text-[var(--accent)]",
+};
+
+export { queuePreviewStyles };
