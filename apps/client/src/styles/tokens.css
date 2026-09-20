@@ -1,0 +1,156 @@
+:root {
+  /* Semantic colors — light theme */
+  --background: #f8fafc;
+  --surface: #ffffff;
+  --surface-muted: #f1f5f9;
+  --surface-hover: #e2e8f0;
+  --surface-active: #dbeafe;
+  --surface-elevated: #ffffff;
+  --text: #0f172a;
+  --text-muted: #475569;
+  --text-subtle: #64748b;
+  --text-inverse: #ffffff;
+  --text-inverse-muted: color-mix(in srgb, var(--text-inverse) 68%, transparent);
+  --text-inverse-subtle: color-mix(in srgb, var(--text-inverse) 54%, transparent);
+  --border: #e2e8f0;
+  --border-muted: #f1f5f9;
+  --border-strong: #cbd5e1;
+  --primary: #6366f1;
+  --primary-hover: #4f46e5;
+  --primary-active: #4338ca;
+  --primary-foreground: #ffffff;
+  --primary-soft: #eef2ff;
+  --primary-line: #c7d2fe;
+  --secondary: #475569;
+  --secondary-hover: #334155;
+  --secondary-foreground: #ffffff;
+  --success: #16a34a;
+  --success-soft: #dcfce7;
+  --success-foreground: #166534;
+  --warning: #d97706;
+  --warning-soft: #fef3c7;
+  --warning-foreground: #92400e;
+  --danger: #dc2626;
+  --danger-soft: #fee2e2;
+  --danger-foreground: #991b1b;
+  --info: #2563eb;
+  --info-soft: #dbeafe;
+  --info-foreground: #1d4ed8;
+  --overlay: rgb(15 23 42 / 0.3);
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  /* Layout */
+  --page-padding: var(--space-5);
+  --page-padding-tablet: var(--space-8);
+  --page-padding-desktop: var(--space-10);
+  --page-section-gap: var(--space-8);
+  --card-padding: var(--space-5);
+  --card-padding-lg: var(--space-6);
+
+  /* Sizes */
+  --control-sm: 2rem;
+  --control-md: 2.5rem;
+  --control-lg: 3rem;
+  --icon-sm: 1rem;
+  --icon-md: 1.25rem;
+  --icon-lg: 1.5rem;
+
+  /* Typography */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgb(15 23 42 / 0.06);
+  --shadow-md: 0 8px 20px rgb(15 23 42 / 0.08);
+  --shadow-lg: 0 18px 50px rgb(15 23 42 / 0.12);
+  --shadow-accent: 0 12px 24px rgb(99 102 241 / 0.18);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 200ms ease;
+
+  /* Z-index */
+  --z-dropdown: 50;
+  --z-sticky: 20;
+  --z-modal: 60;
+
+  /* Legacy aliases retained while feature utilities are migrated. */
+  --paper: var(--background);
+  --ink: var(--text);
+  --muted: var(--text-muted);
+  --line: var(--border);
+  --line-strong: var(--border-strong);
+  --accent: var(--primary);
+  --accent-dark: var(--primary-hover);
+  --accent-light: var(--primary-line);
+  --accent-soft: var(--primary-soft);
+  --accent-line: var(--primary-line);
+}
+
+/* Prepared for future activation; components keep the same semantic variables. */
+[data-theme="dark"] {
+  --background: #0b1120;
+  --surface: #111827;
+  --surface-muted: #1e293b;
+  --surface-hover: #273449;
+  --surface-active: #263759;
+  --surface-elevated: #182235;
+  --text: #e8edf5;
+  --text-muted: #b7c3d4;
+  --text-subtle: #8492a8;
+  --text-inverse: #ffffff;
+  --text-inverse-muted: color-mix(in srgb, var(--text-inverse) 72%, transparent);
+  --text-inverse-subtle: color-mix(in srgb, var(--text-inverse) 56%, transparent);
+  --border: #263449;
+  --border-muted: #1c293c;
+  --border-strong: #3a4a61;
+  --primary: #818cf8;
+  --primary-hover: #a5b4fc;
+  --primary-active: #6366f1;
+  --primary-foreground: #111827;
+  --primary-soft: #202a4b;
+  --primary-line: #4655a4;
+  --secondary: #cbd5e1;
+  --secondary-hover: #e2e8f0;
+  --secondary-foreground: #111827;
+  --success: #4ade80;
+  --success-soft: #173a2a;
+  --success-foreground: #86efac;
+  --warning: #fbbf24;
+  --warning-soft: #422f11;
+  --warning-foreground: #fcd34d;
+  --danger: #fb7185;
+  --danger-soft: #47202b;
+  --danger-foreground: #fda4af;
+  --info: #60a5fa;
+  --info-soft: #1d3458;
+  --info-foreground: #93c5fd;
+  --overlay: rgb(2 6 23 / 0.62);
+  --shadow-sm: 0 1px 2px rgb(2 6 23 / 0.28);
+  --shadow-md: 0 8px 20px rgb(2 6 23 / 0.36);
+  --shadow-lg: 0 18px 50px rgb(2 6 23 / 0.46);
+  --shadow-accent: 0 12px 24px rgb(99 102 241 / 0.22);
+}
