@@ -1,0 +1,28 @@
+const publicQueueScreenStyles = {
+  root: "min-h-screen bg-[var(--background)] px-[var(--page-padding)] py-[var(--page-section-gap)] sm:px-[var(--page-padding-tablet)]",
+  container: "mx-auto max-w-4xl",
+  headerNav: "flex items-center justify-between",
+  logoLink: "flex items-center gap-2.5 text-sm font-semibold tracking-tight",
+  logoBadge: "flex size-8 items-center justify-center rounded-lg bg-[var(--primary)] text-[var(--primary-foreground)]",
+  logoDot: "size-2 rounded-full bg-[var(--primary-foreground)]",
+  loginLink: "text-sm font-medium text-[var(--muted)] hover:text-[var(--ink)]",
+  hero: "mx-auto max-w-2xl py-16 text-center sm:py-24",
+  iconWrapper: "mx-auto flex size-14 items-center justify-center rounded-2xl bg-[var(--accent-soft)] text-[var(--accent)]",
+  icon: "size-7",
+  title: "mt-6 text-3xl font-semibold tracking-[-0.04em] text-[var(--ink)] sm:text-4xl",
+  subtitle: "mt-3 text-base text-[var(--muted)]",
+  badgeWrapper: "mt-6 flex justify-center",
+  badgeDot: "size-1.5 rounded-full bg-current",
+  card: "mt-10 p-6 text-left shadow-[0_18px_50px_rgba(15,23,42,0.06)] sm:p-8",
+  statsGrid: "grid gap-5 sm:grid-cols-3",
+  statBox: "rounded-xl bg-[var(--surface-muted)] p-4",
+  statIcon: "size-5 text-[var(--accent)]",
+  statLabel: "mt-5 text-xs text-[var(--muted)]",
+  statValue: "mt-1 text-2xl font-semibold text-[var(--ink)]",
+  joinButton: "mt-6 w-full",
+  joinButtonIcon: "size-4",
+  shareActions: "mt-6 flex flex-wrap justify-center gap-3",
+  shareIcon: "size-4",
+};
+
+export { publicQueueScreenStyles };

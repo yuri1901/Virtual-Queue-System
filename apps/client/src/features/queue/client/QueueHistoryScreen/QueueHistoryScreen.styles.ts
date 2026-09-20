@@ -1,0 +1,26 @@
+const queueHistoryScreenStyles = {
+  root: "space-y-6",
+  backLink: "mb-6 inline-flex items-center gap-2 text-sm font-medium text-[var(--muted)] hover:text-[var(--ink)]",
+  backIcon: "size-4",
+  statsGrid: "grid gap-4 sm:grid-cols-2 lg:grid-cols-4",
+  mainGrid: "mt-8 grid gap-6 lg:grid-cols-[1fr_320px]",
+  card: "overflow-hidden",
+  cardHeader: "border-b border-[var(--line)] px-5 py-4",
+  cardTitle: "font-semibold text-[var(--ink)]",
+  cardSubtitle: "mt-1 text-xs text-[var(--muted)]",
+  list: "divide-y divide-[var(--line)]",
+  item: "flex flex-wrap items-center gap-3 px-5 py-4",
+  avatar: "flex size-9 items-center justify-center rounded-full bg-[var(--accent-soft)] text-xs font-semibold text-[var(--accent-dark)]",
+  itemInfo: "min-w-0 flex-1",
+  itemTitle: "text-sm font-medium text-[var(--ink)]",
+  itemSub: "mt-1 text-xs text-[var(--muted)]",
+  sidebarCard: "p-5",
+  sidebarTitle: "font-semibold text-[var(--ink)]",
+  sidebarList: "mt-6 space-y-6",
+  sidebarItem: "flex gap-3",
+  sidebarDot: "size-2 rounded-full bg-current",
+  sidebarItemTitle: "text-sm font-medium text-[var(--ink)]",
+  sidebarItemSub: "mt-1 text-xs text-[var(--muted)]",
+};
+
+export { queueHistoryScreenStyles };
