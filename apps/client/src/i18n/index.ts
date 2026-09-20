@@ -1,1 +1,1 @@
-export { Link, redirect, usePathname, useRouter, getPathname } from "./navigation";
+export { getPathname, Link, redirect, usePathname, useRouter } from "./navigation";

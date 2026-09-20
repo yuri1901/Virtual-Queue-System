@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "../../styles/tokens.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Inter, "Avenir Next", "Helvetica Neue", sans-serif;
+}
+
+::selection {
+  background: var(--accent-line);
+  color: var(--ink);
+}
